@@ -1,0 +1,12 @@
+C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome.Domine\bin\Debug\net7.0\CleanArchitectureHotelHome.Domine.deps.json
+C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome.Domine\bin\Debug\net7.0\CleanArchitectureHotelHome.Domine.dll
+C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome.Domine\bin\Debug\net7.0\CleanArchitectureHotelHome.Domine.pdb
+C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome.Domine\obj\Debug\net7.0\CleanArchitectureHotelHome.Domine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome.Domine\obj\Debug\net7.0\CleanArchitectureHotelHome.Domine.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome.Domine\obj\Debug\net7.0\CleanArchitectureHotelHome.Domine.AssemblyInfo.cs
+C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome.Domine\obj\Debug\net7.0\CleanArchitectureHotelHome.Domine.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome.Domine\obj\Debug\net7.0\CleanArchitectureHotelHome.Domine.dll
+C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome.Domine\obj\Debug\net7.0\refint\CleanArchitectureHotelHome.Domine.dll
+C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome.Domine\obj\Debug\net7.0\CleanArchitectureHotelHome.Domine.pdb
+C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome.Domine\obj\Debug\net7.0\ref\CleanArchitectureHotelHome.Domine.dll
+C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome.Domine\obj\Debug\net7.0\CleanArchitectureHotelHome.Domine.csproj.AssemblyReference.cache

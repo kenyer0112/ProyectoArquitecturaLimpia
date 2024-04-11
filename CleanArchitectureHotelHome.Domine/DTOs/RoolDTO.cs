@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Domain.DTOs
+{
+    public class RoolDTO
+    {
+       
+        public string Name { get; set; }
+
+        public string Descripcion { get; set; }
+        
+    }
+}

@@ -1,0 +1,15 @@
+C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome.Application\bin\Debug\net7.0\CleanArchitectureHotelHome.Application.deps.json
+C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome.Application\bin\Debug\net7.0\CleanArchitectureHotelHome.Application.dll
+C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome.Application\bin\Debug\net7.0\CleanArchitectureHotelHome.Application.pdb
+C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome.Application\bin\Debug\net7.0\CleanArchitectureHotelHome.Domine.dll
+C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome.Application\bin\Debug\net7.0\CleanArchitectureHotelHome.Domine.pdb
+C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome.Application\obj\Debug\net7.0\CleanArchitectureHotelHome.Application.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome.Application\obj\Debug\net7.0\CleanArchitectureHotelHome.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome.Application\obj\Debug\net7.0\CleanArchitectureHotelHome.Application.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome.Application\obj\Debug\net7.0\CleanArchitectureHotelHome.Application.AssemblyInfo.cs
+C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome.Application\obj\Debug\net7.0\CleanArchitectureHotelHome.Application.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome.Application\obj\Debug\net7.0\CleanArc.628647DF.Up2Date
+C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome.Application\obj\Debug\net7.0\CleanArchitectureHotelHome.Application.dll
+C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome.Application\obj\Debug\net7.0\refint\CleanArchitectureHotelHome.Application.dll
+C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome.Application\obj\Debug\net7.0\CleanArchitectureHotelHome.Application.pdb
+C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome.Application\obj\Debug\net7.0\ref\CleanArchitectureHotelHome.Application.dll

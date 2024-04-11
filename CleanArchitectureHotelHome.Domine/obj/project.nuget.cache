@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "9TQMNGCTQZo9RHIDm5uAsBB0HeW7hxZzNPq+BaH8fju38QS34uUO2zxLACFYorxE8xjZXd+Kaq8zN2AotA+TNQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\PC\\source\\repos\\CleanArchitectureHotelHome\\CleanArchitectureHotelHome.Domine\\CleanArchitectureHotelHome.Domine.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PC\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.18\\microsoft.windowsdesktop.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.18\\microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.18\\microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,875 @@
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+An unhandled exception has occurred while executing the request.
+An unhandled exception has occurred while executing the request.
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+Realizando el getByID.
+No store type was specified for the decimal property 'Precio' on entity type 'Room_D'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+An error occurred using the connection to database 'SistemaHotel' on server '(local)'.
+An exception occurred while iterating over the results of a query for context type 'CleanArchitectureHotelHome.Infraestructura.HotelHomeDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): El sistema no puede encontrar el archivo especificado.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+Ocurrió un error al realizar la tarea.
+An unhandled exception has occurred while executing the request.
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+Realizando el getByID.
+No store type was specified for the decimal property 'Precio' on entity type 'Room_D'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+An error occurred using the connection to database 'SistemaHotel' on server '(local)'.
+An exception occurred while iterating over the results of a query for context type 'CleanArchitectureHotelHome.Infraestructura.HotelHomeDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): El sistema no puede encontrar el archivo especificado.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+Ocurrió un error al realizar la tarea.
+An unhandled exception has occurred while executing the request.
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+No store type was specified for the decimal property 'Precio' on entity type 'Room_D'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+An error occurred using the connection to database 'SistemaHotel' on server '(local)'.
+An exception occurred in the database while saving changes for context type 'CleanArchitectureHotelHome.Infraestructura.HotelHomeDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): El sistema no puede encontrar el archivo especificado.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+No store type was specified for the decimal property 'Precio' on entity type 'Room_D'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+An error occurred using the connection to database 'SistemaHotel' on server '(local)'.
+An exception occurred in the database while saving changes for context type 'CleanArchitectureHotelHome.Infraestructura.HotelHomeDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): El sistema no puede encontrar el archivo especificado.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+No store type was specified for the decimal property 'Precio' on entity type 'Room_D'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+Executed DbCommand (109ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Descripcion], [c].[Name]
+FROM [Categorias] AS [c]
+Executed DbCommand (182ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 100), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p5='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Rooms] ([CategoriaId], [Estado], [Fecha], [PisoId], [Precio], [Reserva_DId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+Executed DbCommand (118ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 100), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p5='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Rooms] ([CategoriaId], [Estado], [Fecha], [PisoId], [Precio], [Reserva_DId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+An exception occurred in the database while saving changes for context type 'CleanArchitectureHotelHome.Infraestructura.HotelHomeDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Rooms_Categorias_CategoriaId". The conflict occurred in database "SistemaHotel", table "dbo.Categorias", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:573e4877-b2e1-4f28-8d10-e7f055a7b10d
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+No store type was specified for the decimal property 'Precio' on entity type 'Room_D'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+Executed DbCommand (87ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CategoriaId], [r].[Estado], [r].[Fecha], [r].[PisoId], [r].[Precio], [r].[Reserva_DId]
+FROM [Rooms] AS [r]
+WHERE [r].[Id] = @__id_0
+Executed DbCommand (5ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CategoriaId], [r].[Estado], [r].[Fecha], [r].[PisoId], [r].[Precio], [r].[Reserva_DId]
+FROM [Rooms] AS [r]
+WHERE [r].[Id] = @__id_0
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+No store type was specified for the decimal property 'Precio' on entity type 'Room_D'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+Executed DbCommand (154ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CategoriaId], [r].[Estado], [r].[Fecha], [r].[PisoId], [r].[Precio], [r].[Reserva_DId]
+FROM [Rooms] AS [r]
+WHERE [r].[Id] = @__id_0
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+No store type was specified for the decimal property 'Precio' on entity type 'Room_D'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+Executed DbCommand (77ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CategoriaId], [r].[Estado], [r].[Fecha], [r].[PisoId], [r].[Precio], [r].[Reserva_DId]
+FROM [Rooms] AS [r]
+WHERE [r].[Id] = @__id_0
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+No store type was specified for the decimal property 'Precio' on entity type 'Room_D'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+Executed DbCommand (87ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CategoriaId], [r].[Estado], [r].[Fecha], [r].[PisoId], [r].[Precio], [r].[Reserva_DId]
+FROM [Rooms] AS [r]
+WHERE [r].[Id] = @__id_0
+Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CategoriaId], [r].[Estado], [r].[Fecha], [r].[PisoId], [r].[Precio], [r].[Reserva_DId]
+FROM [Rooms] AS [r]
+WHERE [r].[Id] = @__id_0
+Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CategoriaId], [r].[Estado], [r].[Fecha], [r].[PisoId], [r].[Precio], [r].[Reserva_DId]
+FROM [Rooms] AS [r]
+WHERE [r].[Id] = @__id_0
+Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CategoriaId], [r].[Estado], [r].[Fecha], [r].[PisoId], [r].[Precio], [r].[Reserva_DId]
+FROM [Rooms] AS [r]
+WHERE [r].[Id] = @__id_0
+Executed DbCommand (73ms) [Parameters=[@p5='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 100), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Rooms] SET [CategoriaId] = @p0, [Estado] = @p1, [Fecha] = @p2, [PisoId] = @p3, [Precio] = @p4
+OUTPUT 1
+WHERE [Id] = @p5;
+Executed DbCommand (27ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CategoriaId], [r].[Estado], [r].[Fecha], [r].[PisoId], [r].[Precio], [r].[Reserva_DId]
+FROM [Rooms] AS [r]
+WHERE [r].[Id] = @__id_0
+Executed DbCommand (7ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CategoriaId], [r].[Estado], [r].[Fecha], [r].[PisoId], [r].[Precio], [r].[Reserva_DId]
+FROM [Rooms] AS [r]
+WHERE [r].[Id] = @__id_0
+Executed DbCommand (3ms) [Parameters=[@p5='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 100), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Rooms] SET [CategoriaId] = @p0, [Estado] = @p1, [Fecha] = @p2, [PisoId] = @p3, [Precio] = @p4
+OUTPUT 1
+WHERE [Id] = @p5;
+Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CategoriaId], [r].[Estado], [r].[Fecha], [r].[PisoId], [r].[Precio], [r].[Reserva_DId]
+FROM [Rooms] AS [r]
+WHERE [r].[Id] = @__id_0
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+No store type was specified for the decimal property 'Precio' on entity type 'Room_D'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+Executed DbCommand (76ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Descripcion], [c].[Name]
+FROM [Categorias] AS [c]
+WHERE [c].[Id] = @__id_0
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+No store type was specified for the decimal property 'Precio' on entity type 'Room_D'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+Executed DbCommand (76ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Descripcion], [c].[Name]
+FROM [Categorias] AS [c]
+WHERE [c].[Id] = @__id_0
+Executed DbCommand (5ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Descripcion], [p].[Name], [p].[Stock]
+FROM [Pisos] AS [p]
+WHERE [p].[Id] = @__id_0
+Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Descripcion], [c].[Name]
+FROM [Categorias] AS [c]
+WHERE [c].[Id] = @__id_0
+Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Descripcion], [p].[Name], [p].[Stock]
+FROM [Pisos] AS [p]
+WHERE [p].[Id] = @__id_0
+Executed DbCommand (101ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 100), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p5='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Rooms] ([CategoriaId], [Estado], [Fecha], [PisoId], [Precio], [Reserva_DId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CategoriaId], [r].[Estado], [r].[Fecha], [r].[PisoId], [r].[Precio], [r].[Reserva_DId]
+FROM [Rooms] AS [r]
+WHERE [r].[Id] = @__id_0
+Executed DbCommand (11ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CategoriaId], [r].[Estado], [r].[Fecha], [r].[PisoId], [r].[Precio], [r].[Reserva_DId]
+FROM [Rooms] AS [r]
+WHERE [r].[Id] = @__id_0
+Executed DbCommand (6ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CategoriaId], [r].[Estado], [r].[Fecha], [r].[PisoId], [r].[Precio], [r].[Reserva_DId]
+FROM [Rooms] AS [r]
+WHERE [r].[Id] = @__id_0
+Executed DbCommand (12ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CategoriaId], [r].[Estado], [r].[Fecha], [r].[PisoId], [r].[Precio], [r].[Reserva_DId]
+FROM [Rooms] AS [r]
+WHERE [r].[Id] = @__id_0
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+Realizando el getByID.
+No store type was specified for the decimal property 'Precio' on entity type 'Room_D'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+Executed DbCommand (88ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CategoriaId], [r].[Estado], [r].[Fecha], [r].[PisoId], [r].[Precio], [r].[Reserva_DId]
+FROM [Rooms] AS [r]
+WHERE [r].[Id] = @__id_0
+Realizdo con exito.Disponible
+Realizando el getByID.
+Executed DbCommand (5ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CategoriaId], [r].[Estado], [r].[Fecha], [r].[PisoId], [r].[Precio], [r].[Reserva_DId]
+FROM [Rooms] AS [r]
+WHERE [r].[Id] = @__id_0
+Realizdo con exito.Disponible
+Realizando el getByID.
+Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CategoriaId], [r].[Estado], [r].[Fecha], [r].[PisoId], [r].[Precio], [r].[Reserva_DId]
+FROM [Rooms] AS [r]
+WHERE [r].[Id] = @__id_0
+Categoria no existe
+Realizando el getByID.
+Executed DbCommand (6ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CategoriaId], [r].[Estado], [r].[Fecha], [r].[PisoId], [r].[Precio], [r].[Reserva_DId]
+FROM [Rooms] AS [r]
+WHERE [r].[Id] = @__id_0
+Realizdo con exito.Disponible
+Realizando el getByID.
+Executed DbCommand (20ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CategoriaId], [r].[Estado], [r].[Fecha], [r].[PisoId], [r].[Precio], [r].[Reserva_DId]
+FROM [Rooms] AS [r]
+WHERE [r].[Id] = @__id_0
+Realizdo con exito.Disponible
+Realizando el getByID.
+Executed DbCommand (8ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CategoriaId], [r].[Estado], [r].[Fecha], [r].[PisoId], [r].[Precio], [r].[Reserva_DId]
+FROM [Rooms] AS [r]
+WHERE [r].[Id] = @__id_0
+Realizdo con exito.Disponible
+Realizando el getByID.
+Executed DbCommand (6ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CategoriaId], [r].[Estado], [r].[Fecha], [r].[PisoId], [r].[Precio], [r].[Reserva_DId]
+FROM [Rooms] AS [r]
+WHERE [r].[Id] = @__id_0
+Realizdo con exito.Disponible
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+Realizando el getByID.
+No store type was specified for the decimal property 'Precio' on entity type 'Room_D'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+Executed DbCommand (90ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CategoriaId], [r].[Estado], [r].[Fecha], [r].[PisoId], [r].[Precio], [r].[Reserva_DId]
+FROM [Rooms] AS [r]
+WHERE [r].[Id] = @__id_0
+Realizdo con exito.Disponible
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+Realizando el getByID.
+No store type was specified for the decimal property 'Precio' on entity type 'Room_D'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+Executed DbCommand (80ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CategoriaId], [r].[Estado], [r].[Fecha], [r].[PisoId], [r].[Precio], [r].[Reserva_DId]
+FROM [Rooms] AS [r]
+WHERE [r].[Id] = @__id_0
+Realizdo con exito.Disponible
+Realizando el getByID.
+Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CategoriaId], [r].[Estado], [r].[Fecha], [r].[PisoId], [r].[Precio], [r].[Reserva_DId]
+FROM [Rooms] AS [r]
+WHERE [r].[Id] = @__id_0
+Categoria no existe
+Realizando el getByID.
+Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CategoriaId], [r].[Estado], [r].[Fecha], [r].[PisoId], [r].[Precio], [r].[Reserva_DId]
+FROM [Rooms] AS [r]
+WHERE [r].[Id] = @__id_0
+Realizdo con exito.Disponible
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+Realizando el getByID.
+No store type was specified for the decimal property 'Precio' on entity type 'Room_D'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+Executed DbCommand (212ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Descripcion], [c].[Name]
+FROM [Categorias] AS [c]
+WHERE [c].[Id] = @__id_0
+Realizdo con exito.Individual
+Realizando el getByID.
+Executed DbCommand (5ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Descripcion], [c].[Name]
+FROM [Categorias] AS [c]
+WHERE [c].[Id] = @__id_0
+Categoria no existe
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+Realizando el getByID.
+No store type was specified for the decimal property 'Precio' on entity type 'Room_D'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+Executed DbCommand (103ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CategoriaId], [r].[Estado], [r].[Fecha], [r].[PisoId], [r].[Precio], [r].[Reserva_DId]
+FROM [Rooms] AS [r]
+WHERE [r].[Id] = @__id_0
+Realizdo con exito.Disponible
+Realizando el getByID.
+Executed DbCommand (6ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CategoriaId], [r].[Estado], [r].[Fecha], [r].[PisoId], [r].[Precio], [r].[Reserva_DId]
+FROM [Rooms] AS [r]
+WHERE [r].[Id] = @__id_0
+Habitacion no existe
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+No store type was specified for the decimal property 'Precio' on entity type 'Room_D'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+Executed DbCommand (101ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Descripcion], [p].[Name], [p].[Stock]
+FROM [Pisos] AS [p]
+WHERE [p].[Id] = @__id_0
+Executed DbCommand (5ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Descripcion], [p].[Name], [p].[Stock]
+FROM [Pisos] AS [p]
+WHERE [p].[Id] = @__id_0
+Executed DbCommand (41ms) [Parameters=[@p0='?' (Size = 300), @p1='?' (Size = 100), @p2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Pisos] ([Descripcion], [Name], [Stock])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 300), @p1='?' (Size = 100), @p2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Pisos] ([Descripcion], [Name], [Stock])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Descripcion], [p].[Name], [p].[Stock]
+FROM [Pisos] AS [p]
+WHERE [p].[Id] = @__id_0
+Executed DbCommand (465ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+DELETE FROM [p]
+FROM [Pisos] AS [p]
+WHERE [p].[Id] = @__id_0
+Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Descripcion], [p].[Name], [p].[Stock]
+FROM [Pisos] AS [p]
+WHERE [p].[Id] = @__id_0
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+No store type was specified for the decimal property 'Precio' on entity type 'Room_D'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+Executed DbCommand (82ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Descripcion], [c].[Name]
+FROM [Categorias] AS [c]
+Executed DbCommand (57ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Apellido], [c].[Documento], [c].[Email], [c].[FechaNac], [c].[Nombre], [c].[Reserva_DId], [c].[Sexo], [c].[Telefono]
+FROM [Clientes] AS [c]
+Executed DbCommand (170ms) [Parameters=[@p0='?' (Size = 300), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (Size = 300), @p5='?' (DbType = Int32), @p6='?' (Size = 14), @p7='?' (Size = 13)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Clientes] ([Apellido], [Documento], [Email], [FechaNac], [Nombre], [Reserva_DId], [Sexo], [Telefono])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+Executed DbCommand (25ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Apellido], [c].[Documento], [c].[Email], [c].[FechaNac], [c].[Nombre], [c].[Reserva_DId], [c].[Sexo], [c].[Telefono]
+FROM [Clientes] AS [c]
+Executed DbCommand (74ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+DELETE FROM [c]
+FROM [Clientes] AS [c]
+WHERE [c].[Id] = @__id_0
+Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Apellido], [c].[Documento], [c].[Email], [c].[FechaNac], [c].[Nombre], [c].[Reserva_DId], [c].[Sexo], [c].[Telefono]
+FROM [Clientes] AS [c]
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+An unhandled exception has occurred while executing the request.
+An unhandled exception has occurred while executing the request.
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+An unhandled exception has occurred while executing the request.
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+An unhandled exception has occurred while executing the request.
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+An unhandled exception has occurred while executing the request.
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+Ocurrió un error al realizar la transaccion.
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+No store type was specified for the decimal property 'Precio' on entity type 'Room_D'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+Executed DbCommand (98ms) [Parameters=[@p0='?' (Size = 300), @p1='?' (Size = 100)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Rool] ([Descripcion], [Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+Registro Realizado con exito.
+Realizando el getByID.
+Executed DbCommand (29ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[Descripcion], [r].[Name]
+FROM [Rool] AS [r]
+WHERE [r].[Id] = @__id_0
+Realizdo con exito.
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+Realizando el getByID.
+No store type was specified for the decimal property 'Precio' on entity type 'Room_D'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+Executed DbCommand (80ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Descripcion], [c].[Name]
+FROM [Categorias] AS [c]
+WHERE [c].[Id] = @__id_0
+Realizdo con exito.Individual
+Executed DbCommand (48ms) [Parameters=[@p0='?' (Size = 300), @p1='?' (Size = 100)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Rool] ([Descripcion], [Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+Registro Realizado con exito.
+Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 300), @p1='?' (Size = 100)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Rool] ([Descripcion], [Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+Registro Realizado con exito.
+Realizando el getByID.
+Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[Descripcion], [r].[Name]
+FROM [Rool] AS [r]
+WHERE [r].[Id] = @__id_0
+Realizdo con exito.
+Realizando el getByID.
+Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[Descripcion], [r].[Name]
+FROM [Rool] AS [r]
+WHERE [r].[Id] = @__id_0
+Realizdo con exito.
+Executed DbCommand (75ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+DELETE FROM [r]
+FROM [Rool] AS [r]
+WHERE [r].[Id] = @__id_0
+Realizando el getByID.
+Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[Descripcion], [r].[Name]
+FROM [Rool] AS [r]
+WHERE [r].[Id] = @__id_0
+Realizdo con exito.
+Realizando el getByID.
+Executed DbCommand (15ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[Descripcion], [r].[Name]
+FROM [Rool] AS [r]
+WHERE [r].[Id] = @__id_0
+Rool no existe
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+No store type was specified for the decimal property 'Precio' on entity type 'Room_D'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+Executed DbCommand (90ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[Descripcion], [r].[Name]
+FROM [Rool] AS [r]
+WHERE [r].[Id] = @__id_0
+Executed DbCommand (69ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 300), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [Fullname], [LoginName], [Password], [RoolId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[Descripcion], [r].[Name]
+FROM [Rool] AS [r]
+WHERE [r].[Id] = @__id_0
+Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 300), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [Fullname], [LoginName], [Password], [RoolId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+Executed DbCommand (37ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Fullname], [u].[LoginName], [u].[Password], [u].[RoolId]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__id_0
+Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Fullname], [u].[LoginName], [u].[Password], [u].[RoolId]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__id_0
+Realizando el getByID.
+Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[Descripcion], [r].[Name]
+FROM [Rool] AS [r]
+WHERE [r].[Id] = @__id_0
+Realizdo con exito.
+Realizando el getByID.
+Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[Descripcion], [r].[Name]
+FROM [Rool] AS [r]
+WHERE [r].[Id] = @__id_0
+Rool no existe
+Realizando el getByID.
+Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[Descripcion], [r].[Name]
+FROM [Rool] AS [r]
+WHERE [r].[Id] = @__id_0
+Rool no existe
+Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[Descripcion], [r].[Name]
+FROM [Rool] AS [r]
+WHERE [r].[Id] = @__id_0
+Executed DbCommand (36ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Fullname], [u].[LoginName], [u].[Password], [u].[RoolId]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__id_0
+Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Fullname], [u].[LoginName], [u].[Password], [u].[RoolId]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__id_0
+Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Fullname], [u].[LoginName], [u].[Password], [u].[RoolId]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__id_0
+Executed DbCommand (54ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+DELETE FROM [r]
+FROM [Rool] AS [r]
+WHERE [r].[Id] = @__id_0
+Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Fullname], [u].[LoginName], [u].[Password], [u].[RoolId]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__id_0
+Executed DbCommand (26ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+DELETE FROM [r]
+FROM [Rool] AS [r]
+WHERE [r].[Id] = @__id_0
+Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+DELETE FROM [r]
+FROM [Rool] AS [r]
+WHERE [r].[Id] = @__id_0
+Realizando el getByID.
+Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[Descripcion], [r].[Name]
+FROM [Rool] AS [r]
+WHERE [r].[Id] = @__id_0
+Rool no existe
+Realizando el getByID.
+Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[Descripcion], [r].[Name]
+FROM [Rool] AS [r]
+WHERE [r].[Id] = @__id_0
+Rool no existe
+Executed DbCommand (31ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Fullname], [u].[LoginName], [u].[Password], [u].[RoolId]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__id_0
+Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Fullname], [u].[LoginName], [u].[Password], [u].[RoolId]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__id_0
+Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Fullname], [u].[LoginName], [u].[Password], [u].[RoolId]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__id_0
+Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Fullname], [u].[LoginName], [u].[Password], [u].[RoolId]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__id_0
+Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Fullname], [u].[LoginName], [u].[Password], [u].[RoolId]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__id_0
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+No store type was specified for the decimal property 'Precio' on entity type 'Room_D'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+Executed DbCommand (154ms) [Parameters=[@p0='?' (Size = 300), @p1='?' (Size = 100)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Rool] ([Descripcion], [Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+Registro Realizado con exito.
+Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 300), @p1='?' (Size = 100)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Rool] ([Descripcion], [Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+Registro Realizado con exito.
+Realizando el getByID.
+Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[Descripcion], [r].[Name]
+FROM [Rool] AS [r]
+WHERE [r].[Id] = @__id_0
+Realizdo con exito.
+Now listening on: https://localhost:7107
+Now listening on: http://localhost:5076
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\PC\source\repos\CleanArchitectureHotelHome\CleanArchitectureHotelHome
+No store type was specified for the decimal property 'Precio' on entity type 'Room_D'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+Executed DbCommand (92ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[Descripcion], [r].[Name]
+FROM [Rool] AS [r]
+WHERE [r].[Id] = @__id_0
+Executed DbCommand (11ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 300), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [Fullname], [LoginName], [Password], [RoolId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Fullname], [u].[LoginName], [u].[Password], [u].[RoolId]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__id_0
+Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Fullname], [u].[LoginName], [u].[Password], [u].[RoolId]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__id_0
+Executed DbCommand (49ms) [Parameters=[@p5='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 300), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [Email] = @p0, [Fullname] = @p1, [LoginName] = @p2, [Password] = @p3, [RoolId] = @p4
+OUTPUT 1
+WHERE [Id] = @p5;
+Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Fullname], [u].[LoginName], [u].[Password], [u].[RoolId]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__id_0
